@@ -56,10 +56,12 @@ Python handles:
 ### Steps
 
 1. Compile the C engine:
+cd src/c_engine
 make
+cd ../..
 
 2. Run the game:
-python3 src/python_app/run_game.py –config <config_file> –profile <profile_file>
+python3 src/python_app/run_game.py -–config <config_file> -–profile <profile_file>
 
 ---
 
